@@ -1,7 +1,7 @@
 # agent-readiness
 
-A [Claude Code skill](https://docs.claude.com/en/docs/claude-code/skills) for auditing and improving
-how discoverable and readable a website is to AI agents and answer engines.
+A Claude Code skill for auditing and improving how discoverable and readable a website is to AI
+agents and answer engines.
 
 It runs the [isitagentready.com](https://isitagentready.com) scan, triages which checks actually
 apply to the site in question, and implements the ones that matter.
@@ -42,14 +42,7 @@ real runtime (`wrangler pages dev`) rather than a build, and re-scanning before 
 
 ## Install
 
-Personal (available in every project):
-
-```bash
-git clone https://github.com/jimjonah/agent-readiness-skill.git
-cp -r agent-readiness-skill/agent-readiness ~/.claude/skills/
-```
-
-Or per-project, into `.claude/skills/agent-readiness/` in the repo you're working on.
+See the [repo README](../../README.md#install).
 
 ## Use
 
@@ -58,9 +51,8 @@ Claude loads it automatically when the task matches — "run an agent-readiness 
 GEO/AEO work. Or invoke it directly:
 
 ```
-/agent-readiness https://example.com
+/agent-readiness:agent-readiness https://example.com
 ```
 
-## License
-
-MIT — see [LICENSE](LICENSE).
+If you copied the folder into `~/.claude/skills/` instead of installing the plugin, it's
+`/agent-readiness`.

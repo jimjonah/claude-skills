@@ -1,0 +1,9 @@
+{
+  "name": "push-to-confluence",
+  "description": "Push a local Markdown file to a Confluence page, rewriting anchor links so they resolve there, without changing the local file",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jim Jonah"
+  },
+  "license": "MIT"
+}

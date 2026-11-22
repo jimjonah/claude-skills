@@ -1,0 +1,9 @@
+{
+  "name": "remove-ai-tells",
+  "description": "Rewrite prose so it reads as human-written and says only what the reader needs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jim Jonah"
+  },
+  "license": "MIT"
+}

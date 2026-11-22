@@ -1,0 +1,29 @@
+{
+  "name": "jimjonah-skills",
+  "description": "Claude Code skills by Jim Jonah",
+  "owner": {
+    "name": "Jim Jonah"
+  },
+  "plugins": [
+    {
+      "name": "agent-readiness",
+      "source": "./plugins/agent-readiness",
+      "description": "Audit and improve how readable a website is to AI agents and answer engines, using the isitagentready.com scan"
+    },
+    {
+      "name": "card-rules-rewrite",
+      "source": "./plugins/card-rules-rewrite",
+      "description": "Rewrite card game rules and strategy pages so they read like a knowledgeable player wrote them"
+    },
+    {
+      "name": "push-to-confluence",
+      "source": "./plugins/push-to-confluence",
+      "description": "Push a local Markdown file to a Confluence page, rewriting anchor links so they resolve there, without changing the local file"
+    },
+    {
+      "name": "remove-ai-tells",
+      "source": "./plugins/remove-ai-tells",
+      "description": "Rewrite prose so it reads as human-written and says only what the reader needs"
+    }
+  ]
+}

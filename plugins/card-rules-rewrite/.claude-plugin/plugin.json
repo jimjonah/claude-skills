@@ -1,0 +1,9 @@
+{
+  "name": "card-rules-rewrite",
+  "description": "Rewrite card game rules and strategy pages so they read like a knowledgeable player wrote them",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jim Jonah"
+  },
+  "license": "MIT"
+}

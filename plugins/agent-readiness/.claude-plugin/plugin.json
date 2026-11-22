@@ -1,0 +1,9 @@
+{
+  "name": "agent-readiness",
+  "description": "Audit and improve how readable a website is to AI agents and answer engines, using the isitagentready.com scan",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jim Jonah"
+  },
+  "license": "MIT"
+}
